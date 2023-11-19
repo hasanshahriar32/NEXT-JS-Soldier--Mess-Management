@@ -1,0 +1,64 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Luxury Suites Hotel",
+      "description": "Experience unparalleled luxury and comfort at our 5-star hotel. Our spacious suites, world-class amenities, and attentive service ensure a memorable stay.",
+      "location": "123 Main Street, Cityville",
+      "rating": 4.8,
+      "price_per_night": 300,
+      "amenities": [
+        "Free Wi-Fi",
+        "Swimming Pool",
+        "Fitness Center",
+        "Fine Dining"
+      ],
+      "image_url": "/images/luxury_suites.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cozy Retreat Inn",
+      "description": "Escape to the tranquility of Cozy Retreat Inn. Our charming rooms, surrounded by nature, provide a perfect getaway. Unwind and enjoy the serene atmosphere.",
+      "location": "456 Oak Avenue, Countryside",
+      "rating": 4.5,
+      "price_per_night": 150,
+      "amenities": [
+        "Free Breakfast",
+        "Scenic Views",
+        "Garden Spa",
+        "Pet-Friendly"
+      ],
+      "image_url": "/images/cozy_retreat.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Urban Oasis Hotel",
+      "description": "Discover the vibrancy of city life at Urban Oasis Hotel. Our modern rooms, central location, and proximity to attractions make it an ideal choice for urban explorers.",
+      "location": "789 Downtown Boulevard, Metropolis",
+      "rating": 4.7,
+      "price_per_night": 200,
+      "amenities": [
+        "City Views",
+        "Conference Rooms",
+        "Rooftop Bar",
+        "24/7 Concierge"
+      ],
+      "image_url": "/images/urban_oasis.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Beachfront Resort & Spa",
+      "description": "Indulge in a beachfront paradise at our Resort & Spa. Enjoy breathtaking ocean views, luxurious spa treatments, and a range of water activities for a blissful vacation.",
+      "location": "101 Seaside Avenue, Coastal Town",
+      "rating": 4.9,
+      "price_per_night": 400,
+      "amenities": [
+        "Private Beach Access",
+        "Spa and Wellness",
+        "Water Sports",
+        "Five Star Dining"
+      ],
+      "image_url": "/images/beachfront_resort.jpg"
+    }
+  ]
+}
