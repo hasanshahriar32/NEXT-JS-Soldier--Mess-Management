@@ -39,7 +39,7 @@ export default function Hotels({ hotels }) {
 
 // getStaticProps does ssg
 export async function getStaticProps() {
-  const res = await fetch("https://r7j3ddww-5000.inc1.devtunnels.ms/hotels");
+  const res = await fetch("http://localhost:5000/hotels");
   const hotels = await res.json();
   //   console.log(hotels);
   return { props: { hotels }, revalidate: 10 };
