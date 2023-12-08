@@ -1,64 +1,153 @@
 {
-  "hotels": [
-    {
-      "id": 1,
-      "name": "Luxury Suites Hotel",
-      "description": "Experience unparalleled luxury and comfort at our 5-star hotel. Our spacious suites, world-class amenities, and attentive service ensure a memorable stay.",
-      "location": "123 Main Street, Cityville",
-      "rating": 4.8,
-      "price_per_night": 300,
-      "amenities": [
-        "Free Wi-Fi",
-        "Swimming Pool",
-        "Fitness Center",
-        "Fine Dining"
-      ],
-      "image_url": "/images/luxury_suites.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Cozy Retreat Inn",
-      "description": "Escape to the tranquility of Cozy Retreat Inn. Our charming rooms, surrounded by nature, provide a perfect getaway. Unwind and enjoy the serene atmosphere.",
-      "location": "456 Oak Avenue, Countryside",
-      "rating": 4.5,
-      "price_per_night": 150,
-      "amenities": [
-        "Free Breakfast",
-        "Scenic Views",
-        "Garden Spa",
-        "Pet-Friendly"
-      ],
-      "image_url": "/images/cozy_retreat.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Urban Oasis Hotel",
-      "description": "Discover the vibrancy of city life at Urban Oasis Hotel. Our modern rooms, central location, and proximity to attractions make it an ideal choice for urban explorers.",
-      "location": "789 Downtown Boulevard, Metropolis",
-      "rating": 4.7,
-      "price_per_night": 200,
-      "amenities": [
-        "City Views",
-        "Conference Rooms",
-        "Rooftop Bar",
-        "24/7 Concierge"
-      ],
-      "image_url": "/images/urban_oasis.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Beachfront Resort & Spa",
-      "description": "Indulge in a beachfront paradise at our Resort & Spa. Enjoy breathtaking ocean views, luxurious spa treatments, and a range of water activities for a blissful vacation.",
-      "location": "101 Seaside Avenue, Coastal Town",
-      "rating": 4.9,
-      "price_per_night": 400,
-      "amenities": [
-        "Private Beach Access",
-        "Spa and Wellness",
-        "Water Sports",
-        "Five Star Dining"
-      ],
-      "image_url": "/images/beachfront_resort.jpg"
-    }
-  ]
+  "restaurant": {
+    "id": 1,
+    "name": "Taste Haven",
+    "description": "Welcome to Taste Haven, where culinary excellence meets a cozy ambiance...",
+    "location": "123 Flavor Street, Culinary City",
+    "rating": 4.8,
+    "menu": [
+      {
+        "id": 1,
+        "category": "Fast Food",
+        "description": "Indulge in quick and satisfying bites that burst with flavor. Our fast food selection is perfect for those on the go or looking for a delightful treat.",
+        "image_url": "/images/fast_food_category.jpg",
+        "items": [
+          {
+            "id": 1,
+            "name": "Classic Cheeseburger",
+            "description": "A timeless favorite. Juicy beef patty, melted cheddar, crisp lettuce, and our special sauce on a toasted bun.",
+            "price": 8.99,
+            "rating": 4.5,
+            "reviews": [
+              { "id": 1, "user": "JohnDoe", "comment": "Delicious burger!" },
+              { "id": 2, "user": "Foodie123", "comment": "The best in town!" },
+              {
+                "id": 3,
+                "user": "TasteExplorer",
+                "comment": "Great combination of flavors."
+              }
+            ],
+            "type": "Main Dish",
+            "image_url": "/images/fast_food_cheeseburger.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Crispy Chicken Tenders",
+            "description": "Golden-fried chicken tenders served with your choice of dipping sauce. Perfect for a quick and satisfying bite.",
+            "price": 7.99,
+            "rating": 4.2,
+            "reviews": [
+              {
+                "id": 4,
+                "user": "ChickenLover",
+                "comment": "Crunchy and delicious!"
+              },
+              {
+                "id": 5,
+                "user": "SnackFanatic",
+                "comment": "Perfectly seasoned."
+              },
+              {
+                "id": 6,
+                "user": "FoodExplorer",
+                "comment": "Great for sharing with friends."
+              }
+            ],
+            "type": "Appetizer",
+            "image_url": "/images/fast_food_chicken_tenders.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Seafood",
+        "description": "Dive into a sea of flavors with our exquisite seafood dishes. From succulent shrimp to indulgent lobster, our seafood selection promises a taste of the ocean.",
+        "image_url": "/images/seafood_category.jpg",
+        "items": [
+          {
+            "id": 3,
+            "name": "Grilled Shrimp Skewers",
+            "description": "Succulent shrimp skewers marinated in garlic and herbs, grilled to perfection. Served with a tangy lemon aioli.",
+            "price": 18.99,
+            "rating": 4.6,
+            "reviews": [
+              {
+                "id": 7,
+                "user": "SeafoodLover",
+                "comment": "Amazing flavors!"
+              },
+              {
+                "id": 8,
+                "user": "GourmetExplorer",
+                "comment": "Perfectly grilled."
+              },
+              {
+                "id": 9,
+                "user": "HealthyEater",
+                "comment": "Light and delicious."
+              }
+            ],
+            "type": "Main Dish",
+            "image_url": "/images/seafood_shrimp_skewers.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Italian",
+        "description": "Embark on a culinary journey to Italy with our authentic Italian dishes. From classic pizzas to indulgent pasta, each dish is a celebration of Italian flavors.",
+        "image_url": "/images/italian_category.jpg",
+        "items": [
+          {
+            "id": 4,
+            "name": "Margherita Pizza",
+            "description": "A classic favorite. Thin-crust pizza with fresh tomato sauce, mozzarella, and basil.",
+            "price": 14.99,
+            "rating": 4.5,
+            "reviews": [
+              {
+                "id": 10,
+                "user": "PizzaFanatic",
+                "comment": "Authentic taste!"
+              },
+              {
+                "id": 11,
+                "user": "ItalianCuisine",
+                "comment": "Love the simplicity."
+              },
+              {
+                "id": 12,
+                "user": "FoodExplorer",
+                "comment": "Perfect crust and balance of ingredients."
+              }
+            ],
+            "type": "Pizza",
+            "image_url": "/images/italian_margherita_pizza.jpg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Mexican",
+        "description": "Spice up your taste buds with our vibrant Mexican dishes. From savory tacos to flavorful enchiladas, experience the richness of Mexican cuisine.",
+        "image_url": "/images/mexican_category.jpg",
+        "items": []
+      },
+      {
+        "id": 5,
+        "category": "Chinese",
+        "description": "Take a flavorful journey through China with our authentic Chinese dishes. From savory stir-fries to delightful dim sum, savor the diverse flavors of Chinese cuisine.",
+        "image_url": "/images/chinese_category.jpg",
+        "items": []
+      },
+      {
+        "id": 6,
+        "category": "Indian",
+        "description": "Experience the rich and aromatic spices of India with our authentic Indian dishes. From savory curries to flavorful biryanis, savor the diverse flavors of Indian cuisine.",
+        "image_url": "/images/indian_category.jpg",
+        "items": []
+      }
+    ],
+    "image_url": "/images/taste_haven.jpg"
+  }
 }
